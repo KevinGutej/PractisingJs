@@ -22,3 +22,24 @@ class Effect {
         return this.#type;
     }
 }
+
+class Item {
+    #id
+    #name
+    #effect
+    #price
+    #amount
+
+    constructor(id, name, effect, price, amount) {
+        this.#id = id;
+        this.#name = name;
+        this.#effect = effect;
+        this.#price = price;
+        this.#amount = amount;
+        this.DOMElement = $('...')
+        this.button = $('button.#id')
+
+    }
+    
+    set price(priceFactor)
+}
